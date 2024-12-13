@@ -1,0 +1,52 @@
+# Archivos generados por Unity que no deben subirse
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Archivos de configuración específicos del sistema
+*.csproj
+*.pidb
+*.suo
+*.user
+*.userprefs
+*.unityproj
+*.booproj
+.DS_Store
+Thumbs.db
+
+# Configuración de VSCode y Rider
+.vscode/
+.idea/
+*.sln.Imports.json
+
+# Archivos de cache de compilación
+*.apk
+*.aab
+*.tmp
+*.tmproj
+*.log
+*.stacktrace
+
+# Archivos de control de versión de Unity
+/[Aa]ssets/[Ss]ettings/*.asset.meta
+/[Pp]roject[Ss]ettings/ProjectSettings.asset.meta
+/[Aa]ssets/[Ss]ettings/UnityConnectSettings.asset.meta
+
+# Archivos personales de Unity
+/[Uu]ser[Ss]ettings/
+
+# Ignorar builds para evitar peso innecesario
+/[Bb]uild/**
+
+# Archivos adicionales que Unity puede generar
+/[Ww]eb[Bb]uild/**
+/[Aa]ssets/[Ss]treaming[Aa]ssets/
+
+# Incluir únicamente lo necesario
+!Assets/**
+!Packages/**
+!ProjectSettings/**
