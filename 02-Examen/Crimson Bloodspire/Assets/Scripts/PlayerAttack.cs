@@ -3,8 +3,8 @@ using UnityEngine;
 public class PlayerAttack : MonoBehaviour
 {
     public Transform attackPoint;
-    public float attackRange = 1.5f; // Más largo para la espada
-    public Vector2 attackArea = new Vector2(2f, 1f); // Área rectangular para el swing
+    public float attackRange = 0.1f; // Más largo para la espada
+    public Vector2 attackArea = new Vector2(0.1f, 0.1f); // Área rectangular para el swing
     public LayerMask enemyLayer;
 
     void Update()
